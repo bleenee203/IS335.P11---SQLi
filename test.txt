@@ -1,0 +1,3 @@
+//Time-based: https://www.sqlinjection.net/time-based/
+SELECT * FROM products WHERE id=1; IF SYSTEM_USER='sa' WAIT FOR DELAY '00:00:15'
+
